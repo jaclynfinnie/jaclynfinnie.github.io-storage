@@ -1,0 +1,18 @@
+{
+    "categories": [
+        {
+            "title": "Daily",
+            "path": "daily",
+            "description": "Daily story, chill out :D 잡다한 일상얘기",
+            "hidden": true
+        },
+        {
+            "title": "Daily",
+            "path": "daily",
+            "description": "Daily story, chill out :D 잡다한 일상얘기",
+            "status": "Archived",
+            "hidden": true
+        }
+    ],
+    "miscellaneous_hidden": true
+}
