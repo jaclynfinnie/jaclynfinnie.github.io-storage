@@ -4,13 +4,13 @@
             "title": "Daily",
             "path": "daily",
             "description": "Daily story, chill out :D 잡다한 일상얘기",
-            "hidden": true
+            "hidden": false
         },
         {
-            "title": "Daily",
-            "path": "daily",
-            "description": "Daily story, chill out :D 잡다한 일상얘기",
-            "status": "Archived",
+            "title": "Computer Architecture",
+            "path": "computer-architecture",
+            "description": "Computer Architecture",
+            "status": "Not ready yet",
             "hidden": true
         }
     ],
