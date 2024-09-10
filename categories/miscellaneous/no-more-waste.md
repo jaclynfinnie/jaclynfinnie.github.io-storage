@@ -1,0 +1,10 @@
+---
+title: NO MORE WASTE TIME
+author: JaclynFinnie
+description: NO MORE WASTE TIME NO MORE WASTE TIME NO MORE WASTE TIME NO MORE WASTE TIME
+date: 2024.09.11 02:04
+hidden: false
+---
+
+# NO MORE WASTE TIME
+
