@@ -59,7 +59,7 @@ for subdir in os.listdir(categories_dir):
 
         file_name_without_ext = os.path.splitext(post_file)[0]
 
-        metadata["path"] = f"{subdir}/{file_name_without_ext}"
+        metadata["path"] = file_name_without_ext
         metadata["hidden"] = metadata.get("hidden", "false").lower() == "true"
 
         data.append(metadata)
@@ -67,8 +67,6 @@ for subdir in os.listdir(categories_dir):
     data = sorted(
         data, key=lambda x: datetime.strptime(x["date"], "%Y.%m.%d %H:%M"), reverse=True
     )
-
-    print(data)
 
     with open(posts_json, "w") as f:
         json.dump({"posts": data}, f, indent=4)
