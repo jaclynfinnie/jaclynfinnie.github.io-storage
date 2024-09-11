@@ -1,0 +1,15 @@
+<li class="flex flex-col items-start gap-1">
+  <a class="flex items-center gap-1.5" href="{{ href }}">
+    <span class="text-[#0000EE] font-medium underline underline-offset-4">
+      {{ title }}
+    </span>
+    {% if status %} -
+    <span
+      class="text-xs text-[#09090B] tracking-tight underline underline-offset-4"
+    >
+      {{ status }}
+    </span>
+    {% endif %}
+  </a>
+  <span class="text-sm text-[#09090B]">{{ content }}</span>
+</li>
