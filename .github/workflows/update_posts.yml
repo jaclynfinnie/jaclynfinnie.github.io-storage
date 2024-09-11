@@ -43,8 +43,8 @@ jobs:
     steps:
       - name: Trigger blog repository workflow
         run: |
-          curl -X POST \
-            -H "Accept: application/vnd.github+json"
+          curl -v -X POST \
+            -H "Accept: application/vnd.github.v3+json"
             -H "Authorization: Bearer ${{ secrets.PAT_BLOG_REPO }}" \
             https://api.github.com/repos/jaclynfinnie/jaclynfinnie.github.io/dispatches \
             -d '{"event_type":"update_completed"}'
