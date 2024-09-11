@@ -1,4 +1,4 @@
-name: Update posts & Notify to blog repo
+name: update-posts & notify
 
 # Controls when the workflow will run
 on:
