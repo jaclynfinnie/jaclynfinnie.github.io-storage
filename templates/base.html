@@ -38,6 +38,18 @@
       {{ content | safe }}
     </div>
 
+    <!-- COMMENT -->
+    {% if comment %}
+    <script
+      src="https://utteranc.es/client.js"
+      repo="jaclynfinnie/jaclynfinnie.github.io-storage"
+      issue-term="pathname"
+      theme="github-light"
+      crossorigin="anonymous"
+      async
+    ></script>
+    {% endif %}
+
     <!-- FOOTER -->
     {% include 'components/footer.html' %}
   </body>
